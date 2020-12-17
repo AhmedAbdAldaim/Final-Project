@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_navig"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.soso.doctors.Navig">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@+id/ca"
+        android:layout_marginTop="80dp"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            android:layout_marginTop="158dp"
+            ></View>
+
+        <com.example.soso.doctors.textviewfont2
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fname"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            />
+        <com.example.soso.doctors.textviewfont2
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t2"
+            />
+        <com.example.soso.doctors.buttonfont
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="Update Profile"
+            android:background="@color/red"
+            android:textColor="@color/white"
+            android:id="@+id/buto_upd"
+            />
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:cardCornerRadius="60dp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-220dp"
+        app:cardBackgroundColor="#646464"
+        android:id="@+id/cc">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/imgaa"
+            android:background="@drawable/ic_person_blac_24dp"
+            app:civ_border_color="@color/black"
+
+            />
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+
+

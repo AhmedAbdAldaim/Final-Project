@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Doctors</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string-array name="gender">
+        <item>a</item>
+        <item>b</item>
+    </string-array>
+</resources>

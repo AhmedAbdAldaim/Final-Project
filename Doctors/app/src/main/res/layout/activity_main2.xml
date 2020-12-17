@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.example.soso.doctors.Main2Activity">
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="710dp"
+        android:id="@+id/siled"
+        ></android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/siled"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:id="@+id/dots"
+        ></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/dots"
+        android:gravity="bottom"
+        android:layout_marginTop="-10dp"
+        android:layout_centerHorizontal="true"
+        >
+        <com.example.soso.doctors.buttonfont
+            android:text="NEXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="324dp"
+            android:background="@drawable/btnviewsild"
+            android:textColor="#fff"
+            android:layout_marginTop="-10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/button" />
+
+        <com.example.soso.doctors.buttonfont
+            android:text="السابق"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_marginTop="-10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="-412dp"
+            android:background="@drawable/btnviewsildback"
+            android:visibility="invisible"
+            android:id="@+id/button2" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

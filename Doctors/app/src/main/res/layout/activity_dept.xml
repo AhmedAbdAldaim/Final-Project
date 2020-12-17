@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_dept"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.soso.doctors.dept">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/blue1"
+        android:gravity="top"
+        android:id="@+id/v"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        />
+    <com.example.soso.doctors.textviewfont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:layout_marginTop="16dp"
+        android:text="Select Specialization"
+        android:gravity="center"
+
+        />
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/list"
+            ></ListView>
+        <com.example.soso.doctors.textviewfont
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:id="@+id/idpic"
+            android:layout_marginTop="16dp"
+            android:text="Select Hospital"
+            android:gravity="center"
+            />
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.soso.doctors">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Noactionbarandwindow">
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:theme="@style/loginNoactionbar" />
+        <activity
+            android:name=".Singup"
+            android:theme="@style/loginNoactionbar" />
+        <activity android:name=".hosptal" />
+        <activity android:name=".Main" />
+        <activity android:name=".Navig" />
+        <activity android:name=".Update_singup" />
+        <activity android:name=".about" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Slider" />
+        <activity android:name=".dept" />
+        <activity android:name=".reg_data" />
+        <activity android:name=".Doctor" />
+        <activity android:name=".docinfo" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Datee" />
+        <activity android:name=".Done"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/re"
+    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@color/white"
+        android:gravity="top"
+        android:id="@+id/v"
+        />
+    <ImageView
+        android:layout_width="1800dp"
+        android:layout_height="170dp"
+        android:src="@drawable/pic1"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow2_forward_black_24dp"
+        android:layout_marginTop="9dp"
+        android:layout_alignParentRight="true"
+        android:onClick="back"
+        />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/activity_about"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="com.example.soso.doctors.about">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ca"
+            android:layout_marginTop="150dp"
+            >
+            <com.example.soso.doctors.textviewfont2
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aboutt"
+                android:textColor="@color/white"
+                android:textSize="26dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="-200dp"
+                android:text="تطبيق دكتوري"
+                android:background="@drawable/about"
+                />
+            <com.example.soso.doctors.textviewfont2
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/about"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="-83dp"
+                android:text="تطبيق دكتوري يساعدك في البحث عن المستشفيات والاطباء واختيار حجز مناسب كما يوفر خاصية حفظ السجل الطبي في كل المستشفيات ليسهل على الدكتور تشخيص المريض.  "
+                />
+            <com.example.soso.doctors.textviewfont2
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/abt"
+                android:textColor="@color/blue1"
+                android:textSize="26dp"
+                android:gravity="right"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:text="#المطورين"
+                />
+            <com.example.soso.doctors.textviewfont2
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ab"
+                android:textColor="@color/blue1"
+                android:textSize="26dp"
+                android:gravity="right"
+                android:layout_marginRight="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:text="#جامعة النيلين"
+                />
+
+            <com.example.soso.doctors.textviewfont2
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/at"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:gravity="right"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="120dp"
+                android:text="احمد عبد الدائم\nاحمد محمد صالح "
+                />
+            <com.example.soso.doctors.textviewfont2
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/a"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:gravity="right"
+                android:layout_marginRight="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="120dp"
+                android:text="كلية علوم الحاسوب\n وتقانة المعلومات  "
+                />
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="75dp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-710dp"
+            app:cardBackgroundColor="@color/blue1"
+            android:id="@+id/cc">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/imgaa"
+                android:src="@drawable/backs"
+
+                />
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</RelativeLayout>
+
+
